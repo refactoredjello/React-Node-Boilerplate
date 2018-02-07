@@ -4,7 +4,7 @@ const path = require('path')
 
 const app = express()
 app.use(bodyParser.json())
-app.use(express.static(path.resolve(__dirname + '/../client/public/')))
+app.use(express.static(path.resolve(__dirname + '/../client/dist/')))
 
 
 module.exports = app

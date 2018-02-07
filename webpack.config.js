@@ -19,8 +19,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
     template: path.join(paths.SRC, 'index.html')
-  }),
-  new ExtractTextPlugin('style.bundle.css')
+    }),
+    new ExtractTextPlugin('style.bundle.css')
   ],
   module: {
     rules: [
